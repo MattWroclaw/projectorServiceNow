@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Projector">fbcb01d10741a01063c4f1e08c1ed0fa</application>
+        <assessment/>
+        <device_type/>
+        <filter table="x_560734_projector_projector">stateNOT IN3^EQ<item display_value="Closed Complete" endquery="false" field="state" goto="false" newquery="false" operator="NOT IN" or="false" value="3"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint>A list of requests for a projector device that do not have a Status value of closed.</hint>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Open</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_560734_projector_projector</name>
+        <order>300</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_560734_projector.projector_request_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-10 18:12:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>211cb6f00741601063c4f1e08c1ed01d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Open status requests</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Projector1" source="x_560734_projector">fbb3427007cd201063c4f1e08c1ed0c3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Projector1">fbb3427007cd201063c4f1e08c1ed0c3</sys_scope>
+        <sys_update_name>sys_app_module_211cb6f00741601063c4f1e08c1ed01d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-12 11:08:00</sys_updated_on>
+        <timeline_page/>
+        <title>Open status requests</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Projector1">fbb3427007cd201063c4f1e08c1ed0c3</application>
+        <file_path/>
+        <instance_id>1c88fe53dbb0a3404c1ff70fbf961933</instance_id>
+        <instance_name>dev71903</instance_name>
+        <name>sys_app_module_211cb6f00741601063c4f1e08c1ed01d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Projector">fbcb01d10741a01063c4f1e08c1ed0fa</application><assessment/><device_type/><filter table="x_560734_projector_projector">stateNOT IN3^EQ<item display_value="Closed Complete" endquery="false" field="state" goto="false" newquery="false" operator="NOT IN" or="false" value="3"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></filter><hint>A list of requests for a projector device that do not have a Status value of closed.</hint><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Open</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_560734_projector_projector</name><order>300</order><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_560734_projector.projector_request_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-12-10 18:12:16</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>211cb6f00741601063c4f1e08c1ed01d</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Open status requests</sys_name><sys_overrides/><sys_package display_value="Projector1" source="x_560734_projector">fbb3427007cd201063c4f1e08c1ed0c3</sys_package><sys_policy/><sys_scope display_value="Projector1">fbb3427007cd201063c4f1e08c1ed0c3</sys_scope><sys_update_name>sys_app_module_211cb6f00741601063c4f1e08c1ed01d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-12-12 11:08:00</sys_updated_on><timeline_page/><title>Open status requests</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-11308458</payload_hash>
+        <record_name>Open status requests</record_name>
+        <reverted_from/>
+        <source>7bb3427007cd201063c4f1e08c1ed0c5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-12 11:08:00</sys_created_on>
+        <sys_id>bec07f9907c5a01063c4f1e08c1ed0ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17656a2d45f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-12 11:08:00</sys_updated_on>
+        <type>Module</type>
+        <update_guid>3ac07f99d3c5a01073b8179d09c2bbae</update_guid>
+        <update_guid_history>3ac07f99d3c5a01073b8179d09c2bbae:-11308458,0bf0c3b4b8416010c7b91f6c5dae10e8:-2127064193,16befe349f416010db4cc1a7fe24c6ac:230233791</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Open status requests">b5e97b910709a01063c4f1e08c1ed014</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-12 11:47:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>3676180096aa46708e3b907c1c6ded90</sys_id>
+        <sys_metadata>211cb6f00741601063c4f1e08c1ed01d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_560734_projector_projector</sys_name>
+        <sys_package display_value="Projector1" source="x_560734_projector">fbb3427007cd201063c4f1e08c1ed0c3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Projector1">fbb3427007cd201063c4f1e08c1ed0c3</sys_scope>
+        <sys_scope_delete display_value="">128f73ab1cea46428ea6ac643662e1a1</sys_scope_delete>
+        <sys_update_name>sys_app_module_211cb6f00741601063c4f1e08c1ed01d</sys_update_name>
+        <sys_update_version display_value="sys_app_module_211cb6f00741601063c4f1e08c1ed01d">bec07f9907c5a01063c4f1e08c1ed0ae</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-12 11:47:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

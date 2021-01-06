@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Projector" max_length="40" name="x_560734_projector_projector" sizeclass="42" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="When needed" mandatory="true" max_length="40" name="u_glide_date_time_1" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Work notes" max_length="4000" name="u_journal_5" type="journal"/>
+        <element attributes="encode_utf8=false" label="Request for" mandatory="true" max_length="32" name="u_reference_1" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Request for email" mandatory="true" max_length="40" name="u_string_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="Sony VPL-VW1000ES" label="Model" max_length="40" name="u_string_3" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="not yet requested" label="Approval" max_length="40" name="u_string_4" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Not Yet Requested" sequence="0" value="not yet requested"/>
+                <element inactive_on_update="false" label="Requested" sequence="1" value="requested"/>
+                <element inactive_on_update="false" label="Approved" sequence="2" value="approved"/>
+                <element inactive_on_update="false" label="Rejected" sequence="3" value="rejected"/>
+            </choice>
+        </element>
+    </element>
+</database>

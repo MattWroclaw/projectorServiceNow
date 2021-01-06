@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="Projector request" max_length="40" name="x_560734_projector_projector_request" sizeclass="11" type="collection">
+        <element attributes="encode_utf8=false" label="Request for" max_length="32" name="u_reference_1" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Projector requests" max_length="32" name="u_reference_2" reference="x_560734_projector_projector" type="reference"/>
+        <element default="Sony VPL-VW1000ES" label="Requested device" max_length="18" name="u_requested_device" read_only="true" type="string"/>
+    </element>
+</database>

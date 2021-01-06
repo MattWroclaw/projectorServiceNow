@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Use the GetEmail Address Script Include to retrieve the Requested for's email address from the database when the field's 'Request for' value changes.</description>
+        <field>u_reference_1</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Projector Polutate Email Field</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '' || newValue === oldValue) {
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+	
+    var getEmailAddr = new GlideAjax('GetEmailAddress');
+    getEmailAddr.addParam('sysparm_name','getEmail');
+    getEmailAddr.addParam('sysparm_userID', g_form.getValue('u_reference_1'));
+    getEmailAddr.getXML(populateEmailField);
+
+    function populateEmailField(response){
+        // Extract the email address from the response, clear any value from the email field, 
+        // set new value in the email field
+        var emailFromScriptInclude = response.responseXML.documentElement.getAttribute("answer");
+        g_form.clearValue('u_string_2');
+        g_form.setValue('u_string_2',emailFromScriptInclude);
+    }
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-12 23:05:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7d0396e5078da01063c4f1e08c1ed058</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Projector Polutate Email Field</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Projector1" source="x_560734_projector">fbb3427007cd201063c4f1e08c1ed0c3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Projector1">fbb3427007cd201063c4f1e08c1ed0c3</sys_scope>
+        <sys_update_name>sys_script_client_7d0396e5078da01063c4f1e08c1ed058</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-12 23:05:00</sys_updated_on>
+        <table>x_560734_projector_projector</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

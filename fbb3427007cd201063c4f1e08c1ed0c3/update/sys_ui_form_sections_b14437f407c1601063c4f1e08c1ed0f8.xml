@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="b14437f407c1601063c4f1e08c1ed0f8" sys_domain="global" table="x_560734_projector_projector_request" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-10 22:06:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>794477f407c1601063c4f1e08c1ed045</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_560734_projector_projector_request" name="x_560734_projector_projector_request" sys_domain="global" view="Default view">b14437f407c1601063c4f1e08c1ed0f8</sys_ui_form>
+            <sys_ui_section caption="Your request" display_value="Your request" name="x_560734_projector_projector_request" sys_domain="global" view="Default view">754437f407c1601063c4f1e08c1ed0f1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-10 22:06:16</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-10 22:06:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>754477f407c1601063c4f1e08c1ed046</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_560734_projector_projector_request" name="x_560734_projector_projector_request" sys_domain="global" view="Default view">b14437f407c1601063c4f1e08c1ed0f8</sys_ui_form>
+            <sys_ui_section caption="Details" display_value="Details" name="x_560734_projector_projector_request" sys_domain="global" view="Default view">4b22be7c0701601063c4f1e08c1ed027</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-10 22:06:16</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-10 22:06:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>394477f407c1601063c4f1e08c1ed049</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_560734_projector_projector_request" name="x_560734_projector_projector_request" sys_domain="global" view="Default view">b14437f407c1601063c4f1e08c1ed0f8</sys_ui_form>
+            <sys_ui_section caption="Reason" display_value="Reason" name="x_560734_projector_projector_request" sys_domain="global" view="Default view">714437f407c1601063c4f1e08c1ed0f7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-10 22:06:16</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-11 12:32:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d69af20507c9601063c4f1e08c1ed069</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_560734_projector_projector_request" name="x_560734_projector_projector_request" sys_domain="global" view="Default view">b14437f407c1601063c4f1e08c1ed0f8</sys_ui_form>
+            <sys_ui_section caption="Statistics" display_value="Statistics" name="x_560734_projector_projector_request" sys_domain="global" view="Default view">529af20507c9601063c4f1e08c1ed066</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-11 12:32:45</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-11 12:28:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c6b9bac107c9601063c4f1e08c1ed068</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_560734_projector_projector_request" name="x_560734_projector_projector_request" sys_domain="global" view="Default view">b14437f407c1601063c4f1e08c1ed0f8</sys_ui_form>
+            <sys_ui_section caption="Log" display_value="Log" name="x_560734_projector_projector_request" sys_domain="global" view="Default view">3db97ac107c9601063c4f1e08c1ed0fe</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-11 12:32:45</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_560734_projector_projector_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-10 22:06:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b14437f407c1601063c4f1e08c1ed0f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_560734_projector_projector_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Projector1" source="x_560734_projector">fbb3427007cd201063c4f1e08c1ed0c3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Projector1">fbb3427007cd201063c4f1e08c1ed0c3</sys_scope>
+            <sys_update_name>sys_ui_form_sections_b14437f407c1601063c4f1e08c1ed0f8</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-10 22:06:16</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
